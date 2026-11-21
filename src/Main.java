@@ -9,7 +9,8 @@ public class Main {
         // Basic window
         JFrame window = new JFrame("Hello World");
         window.setLocationRelativeTo(null);
-        window.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        window.setSize(1080, 720);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         new Main().setIcon(window);
 
         window.setResizable(false);
