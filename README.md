@@ -11,7 +11,7 @@ Place the batch scripts either in the **project root** or inside the **`src\`** 
 ```text
 YourProjectName/
 ├── src/                  # (Required) Java source files (.java)
-│   └── com/example/
+│   └──your_package_name  # If required
 │       └── Main.java     # Must contain 'public static void main'
 ├── res/                  # (Optional) Assets copied to classpath root
 │   └── icon.ico          # (Optional) Custom icon for the generated .exe
