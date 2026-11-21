@@ -6,7 +6,7 @@ A lightweight, zero-dependency Windows batch build system for Java desktop appli
 
 ## 📁 Expected Project Structure
 
-Place the batch scripts either in the **project root** or inside the **`src\`** directory. The scripts automatically resolve the project root.
+Place the batch scripts either in the **project root**, inside the **`src\`** directory or directly download(or clone) the Repostory. The scripts automatically resolve the project root.
 
 ```text
 YourProjectName/
